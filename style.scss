@@ -312,21 +312,6 @@ main.projects {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 900px) {
-  .project_images img {
-    max-width: 80vw;
-  }
-  .solution_link {
-    font-size: 1.5rem;
-  }
-
-  section.project_images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   nav {
     font-size: 1.5rem;
@@ -346,16 +331,5 @@ main.projects {
 
   #background_lines {
     display: none;
-  }
-
-  .layout {
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 5vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    align-self: center;
   }
 }
